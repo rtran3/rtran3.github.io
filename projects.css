@@ -1,0 +1,58 @@
+.project {
+	margin-top: 100px;
+}
+
+.description {
+	font-size: 20px;
+}
+
+body {
+	font-family:'Open Sans','Roboto', sans-serif;
+}
+
+#list {
+	position: fixed;
+}
+
+.navbar {
+	background-color: #76767A;
+}
+
+.p1 {
+	padding-bottom: 70px;
+}
+
+.project1 {
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+.project2 {
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+.project3 {
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+.project4 {
+	width: 400px;
+	height: auto;
+	padding-bottom: 15px;
+	border-radius: 15%;
+}
+
+.proj {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.list-group-item {
+	background-color: #76767A;
+	color: whitesmoke;
+}

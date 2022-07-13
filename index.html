@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zxx">
+
+<!--
+WRITTEN BY: Randy Tran
+EMAIL: randyt3@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/47a1fa50e1.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Portfolio</title>
+</head>
+<body class="container-fluid">
+  <nav class="navbar fixed-top nav-tabs navbar-dark navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-bs-target="#dataTarget" data-bs-toggle="collapse">
+    <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="dataTarget">
+      <ul class="navbar-nav">
+        <li><a class="nav-link" href="#About">About Me</a></li>
+        <li><a class="nav-link" href="work.html">Work Experience</a></li>
+        <li><a class="nav-link" href="projects.html">Projects</a></li>
+        <li><a class="nav-link" href="resume1.pdf" download="Resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div id="banner">
+    <div class ="row align-items-end justify-content-center">
+      <div class="d-none d-md-block col-md-3 col-lg-2">
+      <img src="profile.jpg" alt="Randy Tran" class="profile">
+      </div>
+      <div class="col-md-3 col-lg-2">
+      <p id="name">Randy Tran</p>
+      <p id="position">Undergraduate/Aspiring Software Engineer</p>
+      <p>
+      <a href="https://github.com/rtran3" id ="git" title="github"><span class="fab fa-github-square fa-2x"></span></a>
+      <a href="https://www.facebook.com/" id ="facebook" title="facebook"><span class="fab fa-facebook-square fa-2x"></span></a>
+      <a href="https://www.linkedin.com/" id ="linkedin" title="linkedin"><span class="fab fa-linkedin fa-2x"></span></a>
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="row about">
+    <div class="col-md-7">
+      <div class="row justify-content-center">
+        <div class="col-md-9">
+        <h1 class="aboutme">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+        <h2 class="education">Education</h2>
+        <p>University of California, Irvine</p>
+        <p>B.S. Computer Science</p>
+        <p>Expected: 2023</p>
+
+        <h2 class="coursework">Relevant Coursework</h2>
+        <ul>
+          <li>Programming in Python</li>
+          <li>Programming in Java</li>
+          <li>Programming in C++</li>
+          <li>Data Structure Implementation and Analysis</li>
+          <li>Data Management</li>
+          <li>Design and Analysis of Algorithms</li>
+          <li>Project in Algorithms and Data Structures</li>
+          <li>User Interaction Software</li>
+          <li>Requirements Analysis and Engineering</li>
+        </ul>
+        <h2 class="interests">Interests</h2>
+        <ul>
+          <li>Web/Mobile/Software Development</li>
+          <li>Database Management</li>
+          <li>Portrait Drawing</li>
+        </ul>
+        </div>
+        <div class="col-md-4">
+        <h2 class="pl">Programming Languages</h2>
+        <ul>
+          <li>Python <span class="fab fa-python"></span></li>
+          <li>Java <span class="fab fa-java"></span></li>
+          <li>C </li>
+          <li>C++ </li>
+          <li>Assembly </li>
+          <li>HTML <span class="fab fa-html5"></span></li>
+          <li>CSS <span class="fab fa-css3-alt"></span></li>
+          <li>Sass</li>
+          <li>JavaScript including Vega-Lite (graphical visualization tool)</li>
+        </ul>
+        <h2 class="ql">Query Languages</h2>
+        <ul>
+          <li>SQL</li>
+          <li>NoSQL(MongoDB, Spark)</li>
+          <li>Pandas</li>
+        </ul>
+        <h2 class="frameworks">Frameworks</h2>
+        <ul>
+          <li>AngularJS</li>
+          <li>Ionic</li>
+          <li>A-Frame</li>
+          <li>Bootstrap</li>
+        </ul>
+        <h2 class="skills">Software</h2>
+        <ul>
+          <li>Eclipse</li>
+          <li>Visual Studio Code</li>
+          <li>Sublime Text</li>
+          <li>PostgreSQL</li>
+          <li>Git <span class="fab fa-github-square"></span></li>
+          <li>GitHub</li>
+          <li>Tableau</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mb-3 col-md-4 justify-content-center">
+      <h1 class="contact">Contact</h1>
+      <form>
+        <label for="address">Email address</label>
+        <input id="address" type="email" class="form-control">
+        <label for="message">Message</label>
+        <textarea id="message" class="form-control" rows="5"></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+  <footer class="foot">
+    <div class ="row justify-content-between">
+      <div class="col-6">
+      <p>© 2022 Randy Tran</p>
+      </div>
+      <div class="email col-6">
+        <p>Email: randyt3@uci.edu</p> 
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

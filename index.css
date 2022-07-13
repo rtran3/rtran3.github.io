@@ -1,0 +1,107 @@
+body {
+	background-color: slategrey;
+	font-family:'Open Sans','Roboto', sans-serif;
+	color: whitesmoke;
+}
+
+#banner {
+	width: 100%;
+	background-image: url("background.jpg");
+	height: 500px;
+	background-position: top;
+	padding-top: 175px;
+	background-size: cover;
+  	text-align: center;
+}
+
+
+.navbar {
+	background-color: #708090;
+}
+
+.profile {
+  	width: 225px;
+	height: 200px;
+  	border-radius: 20%
+}
+
+#name {
+	font-size: 35px;
+}
+
+#position {
+	font-family: 'Roboto','Open Sans', sans-serif;
+}
+
+.about {
+	margin-top: 40px;
+	font-size: larger;
+}
+
+#git {
+	color: whitesmoke;
+}
+
+#git:hover {
+	color: black;
+}
+
+#facebook {
+	color: whitesmoke;
+}
+
+#facebook:hover {
+	color: #2F8BDB;
+}
+
+#linkedin {
+	color: whitesmoke;
+}
+
+#linkedin:hover {
+	color: #0077B5;
+}
+
+.education {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.coursework {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.interests {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.skills {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.pl{
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+.ql {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.frameworks {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.aboutme {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.contact {
+	font-family: 'Roboto','Open Sans', sans-serif;
+	color: #FFC334
+}
+
+.email {
+	text-align: right;
+}
